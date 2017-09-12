@@ -42,3 +42,8 @@
 .slider .nav span.on {
     background: #2e9419;
 }
+#1{
+    width: 90px;
+    height: 650px;
+    background-color: grey;
+}

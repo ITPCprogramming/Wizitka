@@ -1,0 +1,28 @@
+.box {
+    height: 270px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+.square{
+    height: 150px;
+    width: 220px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding-top: 100px;
+}
+.line{
+    width: 180px;
+    height: 2px;
+    background-color: grey;
+    margin-left: 20px;
+}
+.text{
+    margin-left: 75px;
+}
+.header{
+    margin-left: 75px;
+    padding-top: 50px;
+}
