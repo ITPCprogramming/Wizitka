@@ -20,7 +20,7 @@
             var ul = $(sl).find("ul"); // находим блок
             var bl = $(sl).find("li.slider"+obj); // находим любой из элементов блока
             var step = $(bl).width(); // ширина объекта
-            $(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
+            $(ul).animate({marginLeft: "-"+step*obj}, 250); // 500 это скорость перемотки
         }
         $(document).on("click", ".slider .nav span", function() { // slider click navigate
             var sl = $(this).closest(".slider"); // находим, в каком блоке был клик
@@ -46,11 +46,34 @@
                     <div class="settings" id="line"></div>
                 </div>
             </div>
+            <div class="box">
+                <div class="square">
+                    <div class="settings" id="header1">Блог</div>
+                    <div class="settings" id="text1">10000</div>
+                    <div class="settings" id="line1"></div>
+                </div>
+            </div>
         </li>
-        <li><img src="Img/img2.jpg" alt=""></li>
-        <li><img src="Img/img3.jpg" alt=""></li>
-        <li><img src="Img/img4.jpg" alt=""></li>
-        <li><img src="Img/img5.jpg" alt=""></li>
+        <li>
+            <div class="box">
+                <div class="square">
+                    <div class="settings" id="header2">Одностраничный сайт</div>
+                    <div class="settings" id="text2">5000</div>
+                    <div class="settings" id="line2"></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <div class="square">
+                    <div class="settings" id="header3">Одностраничный сайт</div>
+                    <div class="settings" id="text3">5000</div>
+                    <div class="settings" id="line3"></div>
+                </div>
+            </div>
+        </li>
+        <li></li>
+        <li></li>
     </ul>
 </div>
 </body>

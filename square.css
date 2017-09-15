@@ -3,14 +3,16 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 .box {
-    height: 270px;
+    display: inline-block;
+    height: 3030px;
     width: 250px;
     border-radius: 5px;
     background-color: grey;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .square{
-    height: 120px;
+    display: inline-block;
+    height: 150px;
     width: 220px;
     background-color: white;
     border-radius: 5px;
@@ -29,6 +31,39 @@ body{
     margin-left: 65px;
 }
 #header{
+    margin-top: -80px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+#line1{
+    width: 180px;
+    height: 2px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+#text1{
+    font-size: 25px;
+    margin-left: 65px;
+}
+#header1{
+    margin-top: -8px;
+    margin-left: 65px;
+    font-size: 35px;
+}
+#line2{
+    width: 180px;
+    height: 2px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+#text2{
+    font-size: 25px;
+    margin-left: 65px;
+}
+#header2{
     margin-top: -80px;
     margin-left: 30px;
     margin-bottom: 30px;
