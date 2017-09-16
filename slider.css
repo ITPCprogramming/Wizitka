@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 .slider {
     z-index: 9;
-    width: 700px;
+    width: 762px;
     height: 290px;
     overflow: hidden;
     margin: 0 0 7px;
     position: relative;
+    border: 4px solid grey;
+    border-radius: 2px;
 }
 .slider ul,
 .slider li {
@@ -18,13 +21,13 @@
 .slider ul li {
     list-style-type: none;
     float: left;
-    width: 700px;
+    width: 762px;
     height: 290px;
 }
 .slider .nav {
     position: absolute;
-    left: 15px;
-    bottom: 12px;
+    left: 320px;
+    bottom: 5px;
 }
 .slider .nav span {
     opacity: 0.9;
@@ -47,16 +50,15 @@
     height: 650px;
     background-color: grey;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 body{
     font-family: 'Oswald', sans-serif;
 }
 .box {
     display: inline-block;
-    height: 3030px;
+    height: 280px;
     width: 250px;
     border-radius: 5px;
-    background-color: grey;
+    background-color: #1E90FF;
     margin-top: 10px;
 }
 .square{
@@ -80,9 +82,8 @@ body{
     margin-left: 65px;
 }
 #header{
-    margin-top: -80px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     font-size: 35px;
 }
 #line1{
@@ -97,7 +98,7 @@ body{
     margin-left: 65px;
 }
 #header1{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 65px;
     font-size: 35px;
 }
@@ -113,9 +114,8 @@ body{
     margin-left: 65px;
 }
 #header2{
-    margin-top: -80px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     font-size: 35px;
 }
 .settings{
