@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 .slider {
     z-index: 9;
-    width: 762px;
+    width: 100%;
     height: 290px;
     overflow: hidden;
     margin: 0 0 7px;
@@ -21,7 +21,7 @@
 .slider ul li {
     list-style-type: none;
     float: left;
-    width: 762px;
+    width: 100%;
     height: 290px;
 }
 .slider .nav {
@@ -45,47 +45,41 @@
 .slider .nav span.on {
     background: #2e9419;
 }
-#1{
-    width: 90px;
-    height: 650px;
-    background-color: grey;
-}
 body{
     font-family: 'Oswald', sans-serif;
 }
 .box {
     display: inline-block;
-    height: 280px;
-    width: 250px;
+    height: 275px;
+    width: 245px;
+    border: 2px solid grey;
     border-radius: 5px;
-    background-color: #1E90FF;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+.box:first-child{
+    margin-left: 35px;
 }
 .box:hover{
-    background-color: yellow;
+    border: 2px solid #48D1CC;
 }
-.square{
-    display: inline-block;
-    height: 150px;
-    width: 220px;
-    background-color: white;
-    border-radius: 5px;
-    margin-left: 15px;
-    padding-top: 100px;
+.box:hover
+    .settings{
+    color: #48D1CC;
 }
 #line{
     width: 180px;
     height: 2px;
     background-color: grey;
     margin-left: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
 }
-#text{
+#price{
     font-size: 25px;
-    margin-left: 65px;
+    margin-left: 72px;
 }
 #header{
-    margin-left: 30px;
+    margin-left: 35px;
     margin-bottom: 70px;
     font-size: 35px;
 }
@@ -94,14 +88,14 @@ body{
     height: 2px;
     background-color: grey;
     margin-left: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
 }
-#text1{
+#price1{
     font-size: 25px;
-    margin-left: 65px;
+    margin-left: 72px;
 }
 #header1{
-    margin-bottom: 40px;
+    margin-bottom: 110px;
     margin-left: 65px;
     font-size: 35px;
 }
@@ -112,15 +106,32 @@ body{
     margin-left: 20px;
     margin-bottom: 80px;
 }
-#text2{
+#price2{
     font-size: 25px;
-    margin-left: 65px;
+    margin-left: 79px;
 }
 #header2{
-    margin-left: 30px;
-    margin-bottom: 28px;
+    margin-left: 60px;
+    margin-bottom: 70px;
     font-size: 35px;
 }
-.settings{
-
+.fa{
+    font-size: 60px;
+    margin-left: 75px; 
+}
+#line0{
+    width: 180px;
+    height: 2px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-bottom: 180px;
+}
+#price0{
+    font-size: 25px;
+    margin-left: 79px;
+}
+#header0{
+    margin-left: 30px;
+    margin-bottom: 70px;
+    font-size: 35px;
 }
